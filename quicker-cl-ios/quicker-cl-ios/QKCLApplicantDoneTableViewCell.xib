@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="188" id="tFU-Lb-Q3L" customClass="QKCLApplicantDoneTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tFU-Lb-Q3L" id="qjk-9h-Mpo">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kce-vC-xz1" customClass="QKGlobalButtonPrimary">
+                        <rect key="frame" x="8" y="85" width="304" height="44"/>
+                        <color key="backgroundColor" red="0.43137254899999999" green="0.74117647060000003" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="3qw-gU-WH5"/>
+                            <constraint firstAttribute="height" constant="44" id="OKC-EH-b4r"/>
+                        </constraints>
+                        <state key="normal" title="給与を支払う">
+                            <color key="titleColor" red="0.36470588235294116" green="0.40392156862745099" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OKC-EH-b4r"/>
+                            </mask>
+                        </variation>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_pic_blankprofile" translatesAutoresizingMaskIntoConstraints="NO" id="4xO-f5-9wZ" customClass="QKImageView">
+                        <rect key="frame" x="10" y="15" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4xO-f5-9wZ" secondAttribute="height" multiplier="1:1" priority="750" id="5Xr-Gi-7XX"/>
+                            <constraint firstAttribute="height" constant="60" id="REH-YK-n9W"/>
+                            <constraint firstAttribute="width" constant="60" id="lS3-Wz-wtI"/>
+                            <constraint firstAttribute="width" constant="60" id="skZ-vy-Uf3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="REH-YK-n9W"/>
+                                <exclude reference="skZ-vy-Uf3"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hgl-2t-MiK" customClass="QKF2Label">
+                        <rect key="frame" x="80" y="23" width="230" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="gco-4q-Vk0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gco-4q-Vk0"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1E-JI-smt" customClass="QKF20Label">
+                        <rect key="frame" x="80" y="52" width="230" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="KbA-mf-yu5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KbA-mf-yu5"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1d8-3z-0Kn">
+                        <rect key="frame" x="222" y="139" width="90" height="13"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_ic_redarrow_min" translatesAutoresizingMaskIntoConstraints="NO" id="kbW-n0-KSB">
+                                <rect key="frame" x="82" y="3" width="8" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kbW-n0-KSB" secondAttribute="height" multiplier="1:1" id="3lb-h9-UuP"/>
+                                    <constraint firstAttribute="width" constant="10" id="JtZ-8D-iJM"/>
+                                    <constraint firstAttribute="height" constant="10" id="TBx-uh-Cmx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JtZ-8D-iJM"/>
+                                        <exclude reference="TBx-uh-Cmx"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qQ-Zz-Fys" customClass="QKGlobalTextButton">
+                                <rect key="frame" x="0.0" y="0.0" width="77" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="m0t-s6-JKJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="勤務を取り消す">
+                                    <color key="titleColor" red="0.78823529411764703" green="0.15686274509803921" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="m0t-s6-JKJ"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3qQ-Zz-Fys" firstAttribute="leading" secondItem="1d8-3z-0Kn" secondAttribute="leading" id="0gY-Xo-awZ"/>
+                            <constraint firstItem="3qQ-Zz-Fys" firstAttribute="top" secondItem="1d8-3z-0Kn" secondAttribute="top" id="5gA-ye-f5M"/>
+                            <constraint firstItem="kbW-n0-KSB" firstAttribute="leading" secondItem="3qQ-Zz-Fys" secondAttribute="trailing" constant="5" id="Szg-8f-Mmk"/>
+                            <constraint firstAttribute="trailing" secondItem="kbW-n0-KSB" secondAttribute="trailing" id="WZK-dn-47D"/>
+                            <constraint firstAttribute="centerY" secondItem="kbW-n0-KSB" secondAttribute="centerY" id="nvl-me-JWj"/>
+                            <constraint firstAttribute="bottom" secondItem="3qQ-Zz-Fys" secondAttribute="bottom" id="xpw-Fk-djb"/>
+                            <constraint firstItem="3qQ-Zz-Fys" firstAttribute="centerY" secondItem="kbW-n0-KSB" secondAttribute="centerY" id="y92-8X-XKb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4xO-f5-9wZ" secondAttribute="bottom" constant="86" id="4v0-Ra-Ry8"/>
+                    <constraint firstAttribute="bottom" secondItem="Kce-vC-xz1" secondAttribute="bottom" constant="32" id="5jT-S3-G9z"/>
+                    <constraint firstItem="Kce-vC-xz1" firstAttribute="top" secondItem="4xO-f5-9wZ" secondAttribute="bottom" constant="10" id="BQF-4b-RA2"/>
+                    <constraint firstItem="Kce-vC-xz1" firstAttribute="leading" secondItem="qjk-9h-Mpo" secondAttribute="leading" constant="8" id="FbI-Mq-T8v"/>
+                    <constraint firstItem="1d8-3z-0Kn" firstAttribute="top" secondItem="4xO-f5-9wZ" secondAttribute="bottom" constant="64" id="I8j-Eg-zFl"/>
+                    <constraint firstItem="4xO-f5-9wZ" firstAttribute="leading" secondItem="qjk-9h-Mpo" secondAttribute="leading" constant="10" id="Lh4-47-fKe"/>
+                    <constraint firstItem="t1E-JI-smt" firstAttribute="leading" secondItem="4xO-f5-9wZ" secondAttribute="trailing" constant="10" id="QQE-My-mTK"/>
+                    <constraint firstItem="1d8-3z-0Kn" firstAttribute="top" secondItem="Kce-vC-xz1" secondAttribute="bottom" constant="10" id="X81-Qu-Tad"/>
+                    <constraint firstAttribute="bottom" secondItem="1d8-3z-0Kn" secondAttribute="bottom" constant="10" id="aab-9M-cOb"/>
+                    <constraint firstAttribute="trailing" secondItem="Hgl-2t-MiK" secondAttribute="trailing" constant="10" id="f5N-xW-fhh"/>
+                    <constraint firstItem="Hgl-2t-MiK" firstAttribute="top" secondItem="qjk-9h-Mpo" secondAttribute="top" constant="23" id="kX7-tl-6DV"/>
+                    <constraint firstItem="Hgl-2t-MiK" firstAttribute="leading" secondItem="4xO-f5-9wZ" secondAttribute="trailing" constant="10" id="mXw-8C-T3o"/>
+                    <constraint firstItem="4xO-f5-9wZ" firstAttribute="centerY" secondItem="Hgl-2t-MiK" secondAttribute="centerY" constant="11.75" id="o0T-69-Rsz"/>
+                    <constraint firstItem="t1E-JI-smt" firstAttribute="top" secondItem="Hgl-2t-MiK" secondAttribute="bottom" constant="8" id="qb5-Ig-eUB"/>
+                    <constraint firstItem="4xO-f5-9wZ" firstAttribute="top" secondItem="qjk-9h-Mpo" secondAttribute="top" constant="15" id="qpC-Fu-S9M"/>
+                    <constraint firstAttribute="trailing" secondItem="t1E-JI-smt" secondAttribute="trailing" constant="10" id="sGr-WJ-16L"/>
+                    <constraint firstAttribute="trailing" secondItem="Kce-vC-xz1" secondAttribute="trailing" constant="8" id="wxw-GC-oKX"/>
+                    <constraint firstAttribute="trailing" secondItem="1d8-3z-0Kn" secondAttribute="trailing" constant="8" id="zyI-uR-Hzs"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="kX7-tl-6DV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avartarImageView" destination="4xO-f5-9wZ" id="rdD-Lx-aUF"/>
+                <outlet property="cancelButton" destination="3qQ-Zz-Fys" id="mGY-8d-nnT"/>
+                <outlet property="cancelView" destination="1d8-3z-0Kn" id="KoK-Yn-ahg"/>
+                <outlet property="jobtypeSNameLabel" destination="Hgl-2t-MiK" id="EJS-5V-AbL"/>
+                <outlet property="narrowImageView" destination="kbW-n0-KSB" id="5bR-9d-YP7"/>
+                <outlet property="noCancelButtonConstrainst" destination="5jT-S3-G9z" id="srA-cY-jw5"/>
+                <outlet property="noPaymentAndCancelButtonConstrainst" destination="4v0-Ra-Ry8" id="vfM-7X-abL"/>
+                <outlet property="noPaymentButtonContrainst" destination="I8j-Eg-zFl" id="8UB-gE-gLz"/>
+                <outlet property="paymentButton" destination="Kce-vC-xz1" id="SCI-Ar-hz6"/>
+                <outlet property="workTimeLabel" destination="t1E-JI-smt" id="Obh-8u-avf"/>
+            </connections>
+            <point key="canvasLocation" x="298" y="175"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="account_pic_blankprofile" width="100" height="100"/>
+        <image name="common_ic_redarrow_min" width="5" height="8"/>
+    </resources>
+</document>

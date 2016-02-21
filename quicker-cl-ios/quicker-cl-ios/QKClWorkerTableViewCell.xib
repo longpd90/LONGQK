@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="QKClWorkerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7SD-Sb-Lii">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="28"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あと2時間34分" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mji-L9-bcW">
+                                <rect key="frame" x="224" y="7" width="81" height="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="勤務開始まで" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgF-HZ-Wvl">
+                                <rect key="frame" x="161" y="8" width="60" height="12"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="勤務前" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBr-wm-bQe">
+                                <rect key="frame" x="15" y="7" width="36" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="mQi-qw-hI0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mQi-qw-hI0"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43137254899999999" green="0.74117647060000003" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mji-L9-bcW" firstAttribute="leading" secondItem="KgF-HZ-Wvl" secondAttribute="trailing" constant="3" id="59n-Do-3vf"/>
+                            <constraint firstItem="VBr-wm-bQe" firstAttribute="leading" secondItem="7SD-Sb-Lii" secondAttribute="leading" constant="15" id="784-vI-6IS"/>
+                            <constraint firstAttribute="trailing" secondItem="Mji-L9-bcW" secondAttribute="trailing" constant="15" id="B0H-Y5-E89"/>
+                            <constraint firstAttribute="centerY" secondItem="VBr-wm-bQe" secondAttribute="centerY" id="CFX-8q-yrS"/>
+                            <constraint firstItem="KgF-HZ-Wvl" firstAttribute="leading" secondItem="VBr-wm-bQe" secondAttribute="trailing" constant="74" id="KwJ-r1-9oe"/>
+                            <constraint firstAttribute="trailing" secondItem="Mji-L9-bcW" secondAttribute="trailing" constant="15" id="LaW-FE-70w"/>
+                            <constraint firstAttribute="centerY" secondItem="Mji-L9-bcW" secondAttribute="centerY" id="OdS-km-eek"/>
+                            <constraint firstAttribute="height" constant="28" id="X2f-ca-QIq"/>
+                            <constraint firstItem="KgF-HZ-Wvl" firstAttribute="leading" secondItem="VBr-wm-bQe" secondAttribute="trailing" constant="110" id="cZs-XO-Sso"/>
+                            <constraint firstItem="KgF-HZ-Wvl" firstAttribute="top" secondItem="7SD-Sb-Lii" secondAttribute="top" constant="6" id="hFm-kk-yM5"/>
+                            <constraint firstAttribute="bottom" secondItem="KgF-HZ-Wvl" secondAttribute="bottom" constant="6" id="iQ6-gK-pyk"/>
+                            <constraint firstAttribute="centerY" secondItem="KgF-HZ-Wvl" secondAttribute="centerY" id="oed-4q-oaJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KwJ-r1-9oe"/>
+                                <exclude reference="cZs-XO-Sso"/>
+                                <exclude reference="hFm-kk-yM5"/>
+                                <exclude reference="iQ6-gK-pyk"/>
+                                <exclude reference="LaW-FE-70w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キッチン・デリバリースタッフ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Kt-Z5-IJo" customClass="QKF2Label">
+                        <rect key="frame" x="15" y="48" width="290" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4月2日 19:00~24:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwg-fN-Vjr" customClass="QKF20Label">
+                        <rect key="frame" x="15" y="79" width="138" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="dGr-ji-tWG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="dGr-ji-tWG"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1Kt-Z5-IJo" secondAttribute="trailing" constant="15" id="GAW-fr-sV0"/>
+                    <constraint firstItem="7SD-Sb-Lii" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RPR-Lu-8e0"/>
+                    <constraint firstAttribute="trailing" secondItem="7SD-Sb-Lii" secondAttribute="trailing" id="TMV-fA-cdT"/>
+                    <constraint firstItem="1Kt-Z5-IJo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Tq1-kQ-lQb"/>
+                    <constraint firstItem="7SD-Sb-Lii" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aJj-k7-x1J"/>
+                    <constraint firstItem="1Kt-Z5-IJo" firstAttribute="top" secondItem="7SD-Sb-Lii" secondAttribute="bottom" constant="20" id="ifK-VQ-td1"/>
+                    <constraint firstItem="Rwg-fN-Vjr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ktt-bq-mWX"/>
+                    <constraint firstItem="Rwg-fN-Vjr" firstAttribute="top" secondItem="1Kt-Z5-IJo" secondAttribute="bottom" constant="10" id="od7-5d-qti"/>
+                    <constraint firstAttribute="bottom" secondItem="Rwg-fN-Vjr" secondAttribute="bottom" constant="20" id="vP7-d9-ubm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dayLabel" destination="Rwg-fN-Vjr" id="htc-iw-bol"/>
+                <outlet property="headerView" destination="7SD-Sb-Lii" id="PjU-g9-uLg"/>
+                <outlet property="jobTypeSName" destination="1Kt-Z5-IJo" id="dCW-7v-I19"/>
+                <outlet property="leftHeaderLabel" destination="VBr-wm-bQe" id="9Jj-WX-lxB"/>
+                <outlet property="middleHeaderLabel" destination="KgF-HZ-Wvl" id="7Xa-4G-Ry8"/>
+                <outlet property="rightHeaderLabel" destination="Mji-L9-bcW" id="xui-Zh-DaX"/>
+            </connections>
+            <point key="canvasLocation" x="332" y="213"/>
+        </tableViewCell>
+    </objects>
+</document>

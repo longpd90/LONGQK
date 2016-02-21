@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25A98C88-E562-442A-8C50-398C053D16BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>quicker-ios</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++505</key>
+		<string>svn://lab.trente.asia/chiase/trunk</string>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++6026</key>
+		<string>svn://lab.trente.asia/chiase/trunk/quicker-ios/quicker-cl-ios/quicker-cl-ios/Images.xcassets</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>quicker-ios/quicker-ios.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++505</key>
+		<string>../..</string>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++6026</key>
+		<string>../../quicker-ios/quicker-cl-ios/quicker-cl-ios/Images.xcassets</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++505</key>
+		<string>svn://lab.trente.asia/chiase</string>
+		<key>141fd181-b149-4d22-9fad-59075b876b23++6026</key>
+		<string>svn://lab.trente.asia/chiase</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://lab.trente.asia/chiase/trunk/quicker-ios/quicker-ios.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>141fd181-b149-4d22-9fad-59075b876b23++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>141fd181-b149-4d22-9fad-59075b876b23++6026</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Images.xcassets</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>141fd181-b149-4d22-9fad-59075b876b23++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>quicker-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="QKMasterJobType" representedClassName="QKMasterJobType" syncable="YES">
+        <attribute name="jobType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobTypeCd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobTypeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QKMasterMeritMask" representedClassName="QKMasterMeritMask" syncable="YES">
+        <attribute name="meritMaskCd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meritMaskName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="QKMasterJobType" positionX="-216" positionY="-91" width="128" height="88"/>
+        <element name="QKMasterMeritMask" positionX="-54" positionY="-91" width="128" height="73"/>
+    </elements>
+</model>

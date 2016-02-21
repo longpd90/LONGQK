@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QKCSRecruitmentDecriptionCell" rowHeight="257" id="0AP-ct-5fI" userLabel="QKCSRecruitmentDecriptionCell" customClass="QKCSRecruitmentDecriptionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="257"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0AP-ct-5fI" id="WP5-tF-iIF">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="こんな 仕事 です" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="XCr-FC-bR0" customClass="QKF42Label">
+                        <rect key="frame" x="15" y="20" width="150" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="M4a-eN-bAs"/>
+                            <constraint firstAttribute="width" constant="150" id="ZZM-Ek-i10"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="gfF-Dk-HVd">
+                        <rect key="frame" x="15" y="45" width="203" height="134"/>
+                        <string key="text">配膳 や 注文 を とっ て もらう 仕事 が メイン に なる か と 思い ま 手 が 空い た 時 は 皿洗い の 可能性 も あり ま , 服装 や 髪型 は 自由 で , 平均年齢 21 歳 、 大学生中心 と し た スタッフ 達 と 元気 に 働け ます !</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_pic_blankprofile" translatesAutoresizingMaskIntoConstraints="NO" id="CaU-7W-Wuy">
+                        <rect key="frame" x="238" y="16" width="67" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="67" id="arK-RA-zH5"/>
+                            <constraint firstAttribute="width" constant="67" id="pdc-Lq-BgJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="33.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待遇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="53" translatesAutoresizingMaskIntoConstraints="NO" id="x80-p9-swP" customClass="QKF53Label">
+                        <rect key="frame" x="244" y="86" width="53" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="53" id="sAL-5U-b25"/>
+                            <constraint firstAttribute="height" constant="21" id="wJN-ZI-ekL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="応募資格" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="CdZ-9y-uJt" customClass="QKF42Label">
+                        <rect key="frame" x="15" y="199" width="254" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="QyM-TD-4PK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="皿洗い の 可/n皿洗い の 可" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="203" translatesAutoresizingMaskIntoConstraints="NO" id="gse-J5-fck" customClass="QKF33Label">
+                        <rect key="frame" x="15" y="222" width="203" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="gse-J5-fck" secondAttribute="bottom" constant="8" id="3Sj-KT-bPa"/>
+                    <constraint firstItem="CdZ-9y-uJt" firstAttribute="top" secondItem="gfF-Dk-HVd" secondAttribute="bottom" constant="20" id="6Yz-X4-spl"/>
+                    <constraint firstAttribute="trailing" secondItem="CdZ-9y-uJt" secondAttribute="trailing" constant="51" id="7XU-Rh-pZy"/>
+                    <constraint firstItem="gse-J5-fck" firstAttribute="leading" secondItem="WP5-tF-iIF" secondAttribute="leading" constant="15" id="9fe-bY-Uty"/>
+                    <constraint firstAttribute="trailing" secondItem="CaU-7W-Wuy" secondAttribute="trailing" constant="15" id="IGI-FI-CRw"/>
+                    <constraint firstItem="gfF-Dk-HVd" firstAttribute="top" secondItem="XCr-FC-bR0" secondAttribute="bottom" constant="10" id="Rvz-5f-SoY"/>
+                    <constraint firstItem="x80-p9-swP" firstAttribute="top" secondItem="CaU-7W-Wuy" secondAttribute="bottom" constant="3" id="SKO-lz-Tpw"/>
+                    <constraint firstItem="XCr-FC-bR0" firstAttribute="top" secondItem="WP5-tF-iIF" secondAttribute="top" constant="20" id="Uzt-3C-S8s"/>
+                    <constraint firstItem="CaU-7W-Wuy" firstAttribute="leading" secondItem="gfF-Dk-HVd" secondAttribute="trailing" constant="20" id="acs-rL-ri4"/>
+                    <constraint firstItem="gse-J5-fck" firstAttribute="top" secondItem="CdZ-9y-uJt" secondAttribute="bottom" constant="8" id="b0o-iN-7e8"/>
+                    <constraint firstItem="CdZ-9y-uJt" firstAttribute="leading" secondItem="WP5-tF-iIF" secondAttribute="leading" constant="15" id="bC6-uP-FXI"/>
+                    <constraint firstAttribute="trailing" secondItem="gse-J5-fck" secondAttribute="trailing" constant="102" id="dFp-ih-yRL"/>
+                    <constraint firstItem="CaU-7W-Wuy" firstAttribute="top" secondItem="WP5-tF-iIF" secondAttribute="top" constant="16" id="eJy-0U-458"/>
+                    <constraint firstAttribute="trailing" secondItem="x80-p9-swP" secondAttribute="trailing" constant="23" id="mD6-nm-kWX"/>
+                    <constraint firstItem="gfF-Dk-HVd" firstAttribute="leading" secondItem="WP5-tF-iIF" secondAttribute="leading" constant="15" id="rVD-Xy-FrN"/>
+                    <constraint firstItem="XCr-FC-bR0" firstAttribute="leading" secondItem="WP5-tF-iIF" secondAttribute="leading" constant="15" id="w5Z-fz-IXk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="applicantqualificationLabel" destination="gse-J5-fck" id="EUf-J4-gev"/>
+                <outlet property="jobDecriptionLabel" destination="gfF-Dk-HVd" id="zJo-lv-6W1"/>
+                <outlet property="personAvatarImageView" destination="CaU-7W-Wuy" id="w60-ET-NnT"/>
+                <outlet property="personNameLabel" destination="x80-p9-swP" id="Hix-Jc-ocQ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="account_pic_blankprofile" width="100" height="100"/>
+    </resources>
+</document>

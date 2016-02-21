@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:quicker-cl-ios/quicker-cl-ios.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:quicker-cs-ios/quicker-cs-ios.xcodeproj">
+   </FileRef>
+</Workspace>

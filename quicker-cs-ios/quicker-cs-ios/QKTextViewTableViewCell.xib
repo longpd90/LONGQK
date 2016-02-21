@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="209" id="KGk-i7-Jjw" customClass="QKTextViewTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Nu-U2-hAu" customClass="QKTextView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仕事内容" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMj-Ql-U6z" customClass="QKGlobalLabel">
+                        <rect key="frame" x="10" y="11" width="141" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bUq-dy-A5a"/>
+                            <constraint firstAttribute="width" constant="141" id="re3-IL-5if"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8Nu-U2-hAu" secondAttribute="trailing" id="6J4-tY-Wjf"/>
+                    <constraint firstItem="mMj-Ql-U6z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="GbD-lo-DL7"/>
+                    <constraint firstItem="8Nu-U2-hAu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SUg-GM-X5t"/>
+                    <constraint firstItem="8Nu-U2-hAu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UhK-cO-VFZ"/>
+                    <constraint firstAttribute="bottom" secondItem="8Nu-U2-hAu" secondAttribute="bottom" constant="-1" id="h66-Da-Dos"/>
+                    <constraint firstItem="mMj-Ql-U6z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nQb-jz-KaS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentTextView" destination="8Nu-U2-hAu" id="35S-T3-Gs8"/>
+                <outlet property="jobLabel" destination="mMj-Ql-U6z" id="Cfw-Ug-gwS"/>
+                <outlet property="textViewContraintToTop" destination="UhK-cO-VFZ" id="c5U-II-qkJ"/>
+            </connections>
+            <point key="canvasLocation" x="360" y="219"/>
+        </tableViewCell>
+    </objects>
+</document>

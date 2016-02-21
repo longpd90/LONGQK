@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QKTipSearchJobView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.70000000000000018" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoQ-B5-lpq">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_btn_search_inactive" translatesAutoresizingMaskIntoConstraints="NO" id="0b3-hW-odg">
+                    <rect key="frame" x="266" y="23" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Dgl-dA-pFE"/>
+                        <constraint firstAttribute="width" constant="44" id="pP2-P1-Ddz"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signup_pic_coachmark" translatesAutoresizingMaskIntoConstraints="NO" id="o8z-Ua-EzP">
+                    <rect key="frame" x="10" y="23" width="300" height="420"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="420" id="vXJ-ZG-EQM"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3a-4N-snr">
+                    <rect key="frame" x="10" y="143" width="160" height="25"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recruit_ic_time" translatesAutoresizingMaskIntoConstraints="NO" id="ua4-kd-weB">
+                            <rect key="frame" x="10" y="4" width="18" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="0q3-lo-zj8"/>
+                                <constraint firstAttribute="width" constant="18" id="Hty-03-wM2"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あと34分で募集終了！" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuE-I1-8b1" customClass="QKF41Label">
+                            <rect key="frame" x="34" y="6" width="122" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="LLi-hW-n2t"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.56862745100000001" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="ua4-kd-weB" secondAttribute="centerY" id="3Lg-JD-yQn"/>
+                        <constraint firstAttribute="trailing" secondItem="PuE-I1-8b1" secondAttribute="trailing" constant="4" id="5Ez-hG-F4b"/>
+                        <constraint firstAttribute="centerY" secondItem="PuE-I1-8b1" secondAttribute="centerY" id="K0h-MY-XTI"/>
+                        <constraint firstAttribute="height" constant="25" id="ZNe-vU-l5p"/>
+                        <constraint firstItem="ua4-kd-weB" firstAttribute="leading" secondItem="M3a-4N-snr" secondAttribute="leading" constant="10" id="Zd9-Ru-k2s"/>
+                        <constraint firstAttribute="width" constant="160" id="lmt-iW-OyM"/>
+                        <constraint firstItem="PuE-I1-8b1" firstAttribute="leading" secondItem="ua4-kd-weB" secondAttribute="trailing" constant="6" id="n5T-sb-PDc"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="3"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0b3-hW-odg" secondAttribute="trailing" constant="10" id="4ro-3M-U61"/>
+                <constraint firstAttribute="bottom" secondItem="LoQ-B5-lpq" secondAttribute="bottom" id="Jg8-2Q-5LC"/>
+                <constraint firstItem="LoQ-B5-lpq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L3h-QW-9pP"/>
+                <constraint firstItem="M3a-4N-snr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="143" id="Psu-Wo-gI8"/>
+                <constraint firstItem="o8z-Ua-EzP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="RqO-iI-yAB"/>
+                <constraint firstAttribute="trailing" secondItem="o8z-Ua-EzP" secondAttribute="trailing" constant="10" id="UKA-zX-0KT"/>
+                <constraint firstItem="M3a-4N-snr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="aPE-0Z-pKg"/>
+                <constraint firstItem="LoQ-B5-lpq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cmD-eA-qJ3"/>
+                <constraint firstItem="0b3-hW-odg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="qQt-C6-4Hs"/>
+                <constraint firstItem="o8z-Ua-EzP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="xLc-61-6a8"/>
+                <constraint firstAttribute="trailing" secondItem="LoQ-B5-lpq" secondAttribute="trailing" id="zUr-ap-5QW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nav_btn_search_inactive" width="44" height="44"/>
+        <image name="recruit_ic_time" width="15" height="15"/>
+        <image name="signup_pic_coachmark" width="300" height="421"/>
+    </resources>
+</document>

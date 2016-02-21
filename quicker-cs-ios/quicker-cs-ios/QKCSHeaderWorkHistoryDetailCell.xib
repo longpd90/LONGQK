@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Aew-Y3-xnO" customClass="QKCSHeaderWorkHistoryDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="振込予定額:4,147円" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upK-Xf-IMI" customClass="QKF3Label">
+                    <rect key="frame" x="85" y="30" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="upK-Xf-IMI" firstAttribute="top" secondItem="Aew-Y3-xnO" secondAttribute="top" constant="30" id="6lR-wN-JP6"/>
+                <constraint firstItem="upK-Xf-IMI" firstAttribute="leading" secondItem="Aew-Y3-xnO" secondAttribute="leading" constant="139" id="IcI-XE-vAS"/>
+                <constraint firstAttribute="centerY" secondItem="upK-Xf-IMI" secondAttribute="centerY" constant="-2.5" id="aTT-u6-7Tg"/>
+                <constraint firstAttribute="centerX" secondItem="upK-Xf-IMI" secondAttribute="centerX" id="raM-dW-zzl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IcI-XE-vAS"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="headerTotalSalaryLabel" destination="upK-Xf-IMI" id="7DQ-sE-8vF"/>
+            </connections>
+            <point key="canvasLocation" x="230" y="187"/>
+        </view>
+    </objects>
+</document>
